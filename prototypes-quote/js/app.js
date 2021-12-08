@@ -18,7 +18,6 @@ UUI.prototype.fillOptions = () => {
         let option = document.createElement('option');
         option.value = i;
         option.textContent = i;
-        console.log(i);
         selectYear.appendChild(option);    
     }
 }
@@ -56,6 +55,4 @@ function quoteInsurance(e) {
     } else {
         console.log('Paso la validacion');
     }
-
-
 }
