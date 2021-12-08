@@ -33,7 +33,6 @@ console.log('getTime', time);
 
 
 
-
 // Set year
 value = now.setFullYear('2010');
 console.log('Set year', now);
