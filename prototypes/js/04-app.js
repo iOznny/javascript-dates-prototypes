@@ -28,8 +28,6 @@ Client.prototype.withdrawBalance = function name(balance) {
 
 
 
-
-
 function Person(name, money, phone) {
     Client.call(this, name, money);
     this.phone = phone;
