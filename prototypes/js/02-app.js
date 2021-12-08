@@ -16,7 +16,6 @@ console.log(formatClient(user));
 
 
 
-
 function formatCompany(company) {
     const { name, money, category } = company;
     return `El cliente ${ name } tiene un saldo de $ ${ money } y pertenece a la categoria ${ category }`;
